@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.weather-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: #9a9a9a;
+    color: #f1f0f2;
+    border-radius: 50px;
+    padding: 20px;
+}
+.nav{
+    padding: 20px;
+}
+button, input[type=text]{
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+button{
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+p, .image{
+    text-align: center;
+}
+span{
+    margin: 10px;
+    border: 1px solid #8e8e8e;
+    background-color: #998f8f;
+    border-radius: 5px;
+    padding: 12px 2px;
+    font-size: 16px;
+}
+.title{
+    color: #333;
+}
